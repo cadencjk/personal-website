@@ -1,23 +1,21 @@
-const logotext = "JOHN";
+const logotext = "</> Caden";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Caden's Website",
+    description: "I’m Caden _ Final year student @ National University of Singapore",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Hi, I’m Caden.",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I develop software",
+        third: "I love photography",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
-};
+    description: "Final year student @ National University of Singapore (NUS)",};
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Bio",
+    aboutme: "I am currently a final-year Computer Science undergraduate at the National University of Singapore. Throughout my academic journey, I have had the privilege of broadening my horizons by studying in Singapore, Ireland and China. These experiences have not only enriched my education but also provided me with a diverse and global perspective. My passion lies in leveraging technology to solve real-world problems, and I am eager to apply my skills and knowledge in innovative ways.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -41,7 +39,7 @@ const skills = [{
         value: 90,
     },
     {
-        name: "Djano",
+        name: "Java",
         value: 85,
     },
     {
@@ -50,25 +48,40 @@ const skills = [{
     },
     {
         name: "React",
-        value: 60,
+        value: 70,
     },
     {
-        name: "Jquery",
+        name: "C#",
+        value: 65,
+    },
+    {
+        name: "SQL",
+        value: 90,
+    },
+    {
+        name: "Photoshop",
         value: 85,
+    },
+    {
+        name: "After Effects",
+        value: 75,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Website Development",
     },
     {
         title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Software Engineering",
+    },
+    {
+        title: "Video Editing",
+    },
+    {
+        title: "Photography & Videography",
     },
 ];
 
@@ -141,16 +154,14 @@ const contactConfig = {
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_e9r86mj",
+    YOUR_TEMPLATE_ID: "template_f8bd1lu",
+    YOUR_USER_ID: "AIo4sNXsdkx0xKBM9",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/cadencjk",
+    linkedin: "https://www.linkedin.com/in/cadencjk",
 };
 export {
     meta,
