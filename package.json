@@ -23,7 +23,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "yarn build && cp build/index.html build/404.html",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
@@ -43,5 +43,9 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "homepage": "https://cadencjk.github.io/personal-website",
+    "devDependencies": {
+        "gh-pages": "^6.1.1"
     }
 }
